@@ -1,0 +1,70 @@
+/*p {
+  color: red;
+  font-size: 30px;
+}
+
+.p2 {
+  color: blue;
+  font-size: 20px;
+}
+
+.p3 {
+  color: green;
+  font-size: 15px;
+}
+
+.class {
+  color: magenta;
+  font-weight: bold;
+}
+
+/*p.success {
+  color: bisque;
+}
+
+p.success.feedback {
+  border: 3px dashed green;
+}
+
+#content {
+  background-color: #ebebeb;
+  padding: 20px;
+}*/
+
+/*div p {
+  color: purple;
+}
+
+a[href="https://www.facebook.com"]
+{
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a[href*="google"] {
+  color: white;
+  background-color: red;
+  border: 2px solid blue;
+}
+*/
+
+div {
+  color: lightcoral;
+  border: 1px solid grey;
+  margin: 40px;
+  font-weight: bold;
+}
+
+div p {
+  /*more specific selector, it carries more weight than p tag*/
+  border: inherit;
+  margin: inherit;
+  color: crimson;
+}
+
+p {
+  color: orange;
+}
